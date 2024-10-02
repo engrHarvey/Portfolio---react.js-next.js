@@ -1,6 +1,7 @@
 "use client"; // Required to make the component interactive
 
 import React from 'react';
+import Image from 'next/image';
 
 export default function Modal({ isOpen, onClose, experience }) {
   if (!isOpen || !experience) return null; // Don't render the modal if it's not open or experience is null
@@ -27,9 +28,11 @@ export default function Modal({ isOpen, onClose, experience }) {
         {/* Image for Projects */}
         {isProject && experience.image && (
           <div className="mb-4">
-            <img
+            <Image
               src={experience.image}
               alt={experience.name}
+              width={800} // Replace with appropriate width
+              height={450} // Replace with appropriate height
               className="w-full h-36 md:h-48 object-cover rounded-lg"
             />
           </div>

@@ -1,6 +1,7 @@
 "use client"; // Required to make the component interactive
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Modal from './modal'; // Import the Modal component
 
 export default function ProjectCard({ project }) {
@@ -21,9 +22,11 @@ export default function ProjectCard({ project }) {
       >
         {/* Project Preview Image */}
         <div className="w-full h-48 overflow-hidden">
-          <img
+          <Image
             src={project.image}
             alt={project.name}
+            width={300} // Replace with appropriate width
+            height={200} // Replace with appropriate height
             className="w-full h-full object-cover transition-transform duration-500 transform hover:scale-110"
           />
         </div>
