@@ -24,6 +24,25 @@ export default function ProjectList() {
       ],
       url: "https://imbentaryo-hub.vercel.app/",
     },
+    {
+      name: "FitnessForge",
+      image: "/images/fitnessforge-preview.PNG", // Image path for the project
+      description:
+        "FitnessForge is a comprehensive fitness tracking application designed to help users monitor and manage their workouts, track progress over time, and achieve their fitness goals. The project integrates various features, including workout logging, personalized fitness data visualization, and performance analysis. It provides users with a rich, interactive interface that makes fitness management intuitive and effective.",
+      technology: [
+        "React.js", 
+        "TypeScript", 
+        "Next.js", 
+        "Node.js", 
+        "Express.js", 
+        "MongoDB", 
+        "JWT", 
+        "Tailwind CSS", 
+        "Recharts", 
+        "Axios",
+      ],
+      url: "https://fitnessforge.vercel.app/",
+    },
   ];
 
   return (
