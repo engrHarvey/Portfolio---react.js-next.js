@@ -43,6 +43,24 @@ export default function ProjectList() {
       ],
       url: "https://fitnessforge.vercel.app/",
     },
+    {
+      name: "The Great Wok",
+      image: "/images/the-great-wok.PNG", // Image path for the project
+      description:
+        "The Great Wok is a web-based platform designed for a modern Asian restaurant. It offers customers a user-friendly interface to explore the restaurant's menu, place orders, and leave reviews for dishes. On the backend, the admin interface enables the restaurant management to monitor orders, manage inventory, and track customer reviews. The platform is built using Next.js (React framework), with a PostgreSQL database, and integrates with several APIs for seamless functionality.",
+      technology: [
+        "React.js", 
+        "TypeScript", 
+        "Next.js", 
+        "Node.js", 
+        "Express.js", 
+        "PostgreSQL", 
+        "JWT", 
+        "Tailwind CSS", 
+        "Axios",
+      ],
+      url: "https://the-great-wok.vercel.app/",
+    },
   ];
 
   return (
